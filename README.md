@@ -27,7 +27,7 @@ This is my solution to the [Social-Link on Frontend Mentor](https://www.frontend
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/nathan5792/Social-Link-Responsive-Media-Design.git
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
