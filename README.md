@@ -28,7 +28,7 @@ This is my solution to the [Social-Link on Frontend Mentor](https://www.frontend
 ### Links
 
 - Solution URL: https://github.com/nathan5792/Social-Link-Responsive-Media-Design.git
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://nathan5792.github.io/Social-Link-Responsive-Media-Design/
 
 ## My process
 -Started by setting up the html structure for the profile.
