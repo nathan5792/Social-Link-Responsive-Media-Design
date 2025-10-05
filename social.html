@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social-Link</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        :root{
+            --Green: hsl(75, 94%, 57%);
+            --White: hsl(0, 0%, 100%);
+            --Grey-700: hsl(0, 0%, 20%);
+            --Grey-800: hsl(0, 0%, 12%);
+            --Grey-900: hsl(0, 0%, 8%);
+        }
+        body{
+            background-color: var(--Grey-900);
+            font-family: "Inter", sans-serif;
+            min-height: 100vh;
+            display: grid;
+            place-content: center;
+        }
+        img{
+            max-width: 30%;
+            display: block;
+            border-radius: 50%;
+        }
+        .main{
+            background-color: var(--Grey-800);
+            padding: 40px;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        .name{
+            display: grid;
+            justify-items: center;
+        }
+        .name h2{
+            color: var(--White);
+            font-weight: 400;
+            margin: 25px 0 10px;
+            font-weight: 600;
+        }
+        .name small{
+            color: var(--Green);
+            font-weight: 600;
+        }
+        .avid{
+            color: var(--White);
+            margin: 20px 0 10px;
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .socials{
+            display: grid;
+            gap: 15px;
+        }
+        .socials p{
+            color: var(--White);
+            font-size: 14px;
+            padding: 15px 100px;
+            background-color: var(--Grey-700);
+            border-radius: 10px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .socials p:hover{
+            cursor: pointer;
+            transition: prop time;
+            color: var(--Grey-900);
+            font-size: 14px;
+            padding: 15px 100px;
+            background-color: var(--Green);
+            border-radius: 10px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .socials a{
+            text-decoration: none;
+        }
+        .frontend{
+            white-space: nowrap;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="name">
+            <img src="./assets/images/avatar-jessica.jpeg" alt="">
+            <h2>Jessica Randall</h2>
+            <small>London, United Kingdom</small>
+        </div>
+        <p class="avid">"Front-end developer and avid reader."</p>
+        <div class="socials">
+            <div><a href=""><p>GitHub</p></a></div>
+            <div class="frontend"><a href="https://www.frontendmentor.io/profile/nathanclass2-source"><p>Frontend Mentor</p></a></div>
+            <div><a href=""><p>Linkedin</p></a></div>
+            <div><a href=""><p>Twitter</p></a></div>
+            <div><a href=""><p>Instagram</p></a></div>
+        </div>
+    </div>
+</body>
+</html>
